@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Hawk(double,\ double)
+comment1.params=
+comment1.target=edu.princeton.cs.algs4.Point2D\ position()
+comment2.params=
+comment2.target=double\ x()
+comment3.params=
+comment3.target=double\ y()
+comment4.params=that
+comment4.target=int\ compareTo(Hawk)
+comment5.params=that
+comment5.target=double\ distanceSquaredTo(Hawk)
+comment6.params=
+comment6.target=edu.princeton.cs.algs4.Vector\ returnToWorld()
+comment7.params=boid
+comment7.target=edu.princeton.cs.algs4.Vector\ eatBoid(Boid)
+comment8.params=nearest
+comment8.target=edu.princeton.cs.algs4.Vector\ updatePositionAndVelocity(Boid)
+comment9.params=
+comment9.target=void\ draw()
+numComments=10

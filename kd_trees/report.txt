@@ -1,0 +1,67 @@
+1. Hours to complete the project: 90 hours
+
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Brute-force Implementation): 
+        I found that this part of the project not as difficult as the second
+part since we mostly called upon the methods that were established when we 
+created a RedBlackBST. Kyler helped explain what a red black binary search 
+tree was. It’s a self balancing tree so that every node is equidistant from 
+the root node. I further understood this concept when it was explained in 
+the slides and lecture. The hardest part of BrutePoint was nearest. Kyler 
+explained that we wanted to use a variable such as nearestDistance in order
+to calculate the closest distance between another point. It was important 
+to understand that we would use Positive Infinity because that meant that 
+everything we compared against it would be smaller and we would 
+initialize nearest distance with a new distance that was closer.
+
+
+   Problem 2 (2d-tree Implementation):
+        This part of the project I found significantly harder than the 
+first problem as it contained many steps. I followed Kyler’s advice and 
+changed the variables within the parameters and node class to in order to 
+prevent myself from getting confused with x coordinates and y coordinates
+etc in point2d class. The second issue that I encountered was with the
+put method. It was hard to understand this method at first since I didn’t
+know exactly how put worked. When Kyler explained we were using the Rect
+class and showed on the board how when you put a point on the grid it 
+split the rectangle then I understood it better. I saw that the rectangles
+x value and y value initially were infinite as there was no points, but 
+when you added points you changed it so that it was not spanning 
+infinitely in different directions as it was restricted. I also understood
+that lr determined if it was lb or rt meaning that it was looking at the x
+or y coordinates. We would recursively call upon put method in order to
+check the lr or rt. We would call upon the branches lb or rt and this 
+allow us to point to the next node and it would be in lb or rt and check 
+if it was in lb or rt. The second hardest problem that I encountered, 
+but was clarified when Kyler explained and he demonstrated on the board was 
+nearest that returned a point2D object. We looked carefully at the point2d
+class and found that there was a method to use that help calculate the 
+distances between points. We used this method to compare a given point to 
+points around and find nearest distance. Every time we found a point and 
+the distance was smaller each time we updated nearestDistance to the new
+distance. Then we would check the distances x coordinate and y coordinate
+based on its lr and if the points x or y was smaller than nodes points x
+or y we would recursively call nearest and switch first and second.
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   Kyler               TA & SI     Guided and Explained how to complete 
+                                   problems 1 and 2 on kd-Trees. He 
+                                   demonstrated how kd-trees and red
+                                   black search trees work on the board
+                                   and showed us how we were to use the 
+                                   classes rectangle and points to 
+                                   compare other points and where to
+                                   search for closest distance.
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I feel like this was the most challenging project yet.
